@@ -1,0 +1,17 @@
+2026-07-10 16:10:58,073 - INFO - Processing ... Clinic_A_June_2024.xlsx
+2026-07-10 16:11:01,004 - INFO - Read Excel: Clinic_A_June_2024.xlsx - (10 rows)
+2026-07-10 16:11:01,010 - DEBUG - Created 'Location' column: A
+2026-07-10 16:11:01,268 - INFO -   10 rows cleaned
+2026-07-10 16:11:01,291 - INFO - Processing ... Clinic_B_June_2024.xlsx
+2026-07-10 16:11:03,445 - INFO - Read Excel: Clinic_B_June_2024.xlsx - (10 rows)
+2026-07-10 16:11:03,448 - DEBUG - Created 'Location' column: B
+2026-07-10 16:11:03,726 - INFO -   10 rows cleaned
+2026-07-10 16:11:03,728 - INFO - Processing ... Clinic_C_June_2024.csv
+2026-07-10 16:11:03,739 - INFO - Read CSV: Clinic_C_June_2024.csv - (10 rows)
+2026-07-10 16:11:03,743 - DEBUG - Created 'Location' column: C
+2026-07-10 16:11:03,753 - INFO -   10 rows cleaned
+2026-07-10 16:11:03,755 - INFO -  Master dataset: 30 rows from 3 files
+2026-07-10 16:11:03,756 - INFO -  Columns: ['Date', 'Patient_Name', 'Doctor', 'Service_Type', 'Amount', 'Status', 'Location']
+2026-07-10 16:11:03,804 - INFO -  Summary created: 3 locations
+2026-07-10 16:11:04,699 - INFO -  Formatting applied successfully
+2026-07-10 16:11:09,975 - INFO -  Email process completed
