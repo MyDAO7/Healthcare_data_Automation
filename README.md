@@ -124,7 +124,50 @@ If a file is corrupt or has the wrong format, it's listed here. The rest of your
 ```bash
 git clone https://github.com/MyDAO7/Healthcare_data_Automation.git
 cd Healthcare_data_Automation
----
-
+```
 **Step 2: Install requirements**
+```bash
+pip install -r requirement.txt
+```
+**3. Set Up Environment Variables**
+Create a .env file in the root directory:
+email=your_email@gmail.com
+password=your_app_password
+recipient=client@example.com
+**For Gmail, use an App Password — not your regular password**
 
+**4. Place Your Files**
+Add your Excel and CSV files to the Clients_data/ folder.
+
+**5. Run the Automation**
+```bash
+python main.py
+```
+**6. Check Your Email**
+The report will be sent to the recipient you specified in .env.
+
+**Project Structure**
+
+Healthcare_data_Automation/
+│
+├── main.py              ← The script (run this)
+├── email_sender.py      ← Sends the report
+├── excel_handler.py     ← Handles open Excel files
+├── formatter.py         ← Makes the report look professional
+├── requirement.txt      ← What it needs to work
+├── README.md            ← This file
+│
+├── Clients_data/        ←  PUT YOUR FILES HERE
+│   ├── Clinic_A_June_2024.xlsx
+│   ├── Clinic_B_June_2024.xlsx
+│   └── Clinic_C_June_2024.csv
+│
+└── output/              ← YOUR REPORT
+    └── Healthcare_Data_Automation.xlsx
+**Technology**
+Python,Pandas,Openpyxl,pywin32,smtplib,python-dotenv
+**About**
+Process unlimited Excel and CSV files automatically: clean data, standardize columns, merge files, and generate professional reports with automatic email delivery.
+
+**License**
+**MIT** — free to use, modify, and share.
