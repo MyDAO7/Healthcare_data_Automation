@@ -1,0 +1,11 @@
+Date,Patient,Doctor,Service,Amount,Status
+06/01/2024,Alice Cooper,Dr. Shah,General,175,Paid
+06/02/2024,Bob Evans,Dr. Shah,Lab,95,Pending
+06/04/2024,Carol Ross,Dr. Ahmed,Procedure,1500,Insurance
+06/09/2024,Dan Foster,Dr. Shah,General,175,Paid
+06/11/2024,Eva Morales,Dr. Ahmed,X-Ray,425,Paid
+06/13/2024,Frank Butler,Dr. Shah,General,175,Pending
+06/17/2024,Grace Collins,Dr. Ahmed,Lab,100,Paid
+06/19/2024,Helen Edwards,Dr. Shah,Procedure,2800,Insurance
+06/23/2024,Ian Peterson,Dr. Ahmed,General,175,Paid
+06/26/2024,Janet Reed,Dr. Shah,X-Ray,425,Pending
