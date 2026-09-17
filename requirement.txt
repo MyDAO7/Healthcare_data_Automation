@@ -17,5 +17,9 @@ pywin32>=306
 # Logging (built-in, no installation needed)
 # logging is part of Python standard library
 
+# Live Dasboard
+streamlit
+plotly
+
 # Optional: For better date parsing
 # pytz>=2023.3
