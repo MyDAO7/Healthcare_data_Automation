@@ -101,7 +101,26 @@ If a file is corrupt or has the wrong format, it's listed here. The rest of your
 | Clinic_C_June_2024.csv: Column 'Patient' not found |
 
 ---
+#### 4. Interactive dashboard(live presentation of data)
+Instead of just emailing the Excel report, you can now explore the data live.
 
+### Run it
+
+    streamlit run dashboard.py
+
+Opens at http://localhost:8501
+### Screenshots
+<img width="1702" height="638" alt="image" src="https://github.com/user-attachments/assets/40556cf7-70a3-4642-943d-db796f869c94" />
+<img width="1840" height="619" alt="image" src="https://github.com/user-attachments/assets/22799ead-dbd0-4f01-af4d-b184f699153e" />
+<img width="1848" height="769" alt="image" src="https://github.com/user-attachments/assets/16011eb5-ef49-4782-8f60-cc3cb9b19120" />
+
+
+### What you get
+
+- **KPI cards** — Total revenue, patients, avg sale, paid %
+- **Filters** — Clinic, doctor, service type, status, date range
+- **Charts** — Revenue over time, revenue by service, payment status, top doctors
+- **Raw data tab** — Filter and download the cleaned data as CSV
 ### Why This Matters
 
 | Real World Problem | How This Tool Solves It |
@@ -154,7 +173,8 @@ Healthcare_data_Automation/
 ├── email_sender.py      ← Sends the report
 ├── excel_handler.py     ← Handles open Excel files
 ├── formatter.py         ← Makes the report look professional
-├── requirement.txt      ← What it needs to work
+├── requirement.txt 
+Dashborad.py← shows live data 
 ├── README.md            ← This file
 │
 ├── Clients_data/        ←  PUT YOUR FILES HERE
